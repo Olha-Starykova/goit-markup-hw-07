@@ -18,35 +18,52 @@ html {
   letter-spacing: 0.03em;
 }
 
+.flexbox {
+  display: flex;
+}
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
-.link {
-  position: relative;
-  text-decoration: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-.line::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.flexbox {
+.section {
   display: flex;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.page-header .flexbox {
+  align-items: center;
+  justify-content: flex-end;
+}
+.div {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
