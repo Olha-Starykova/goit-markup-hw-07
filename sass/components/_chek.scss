@@ -6,27 +6,27 @@
   position: relative;
 }
 
-.visually:checked + .check-box {
-  background-image: url(../images/galochka.svg);
-  background-position-y: center;
-  transform: translateY(50%);
-
-  background-repeat: no-repeat;
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: $accent-color;
-
-  fill: #ffffff;
-  border-radius: 2px;
-  background-size: contain;
-  background-origin: border-box;
-
-  border: 0.2px;
-}
-
 .visually {
   appearance: none;
   position: absolute;
+
+  &:checked + .check-box {
+    background-image: url(../images/galochka.svg);
+    background-position-y: center;
+    transform: translateY(50%);
+
+    background-repeat: no-repeat;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: $accent-color;
+
+    fill: $wite-color;
+    border-radius: 2px;
+    background-size: contain;
+    background-origin: border-box;
+
+    border: 0.2px;
+  }
 }
 
 .label-check {

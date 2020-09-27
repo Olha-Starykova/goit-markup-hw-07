@@ -10,9 +10,9 @@
   padding: 0 20px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
 
-.e-mail-input::placeholder {
+
+&::placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,7 @@
 
   color: rgba(255, 255, 255, 0.6);
 }
+}
 
 .e-mail-label {
   margin-bottom: 4px;
@@ -34,7 +35,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: $primary-text-color;
 }
 .div-footer-too {
   margin-left: 93px;

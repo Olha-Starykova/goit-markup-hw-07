@@ -1,9 +1,4 @@
-.hero.container-hero {
-  max-width: 1600px;
-  min-height: 600px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 .hero {
   display: block;
@@ -25,9 +20,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  &-container-hero {
+  max-width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.hero-title {
+&-title {
   color: $wite-color;
   padding-top: 200px;
   padding-bottom: 30px;
@@ -42,3 +43,5 @@
   text-transform: uppercase;
  
 }
+}
+
