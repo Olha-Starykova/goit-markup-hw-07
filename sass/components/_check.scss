@@ -14,12 +14,9 @@
     background-image: url(../images/galochka.svg);
     background-position-y: center;
     transform: translateY(50%);
-
     background-repeat: no-repeat;
-
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: $accent-color;
-
     fill: $wite-color;
     border-radius: 2px;
     background-size: contain;

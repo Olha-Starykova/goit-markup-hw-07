@@ -1,20 +1,14 @@
-
-
-
 .site-nav {
   display: flex;
   margin-left: 93px;
-
-   .margin-header + .margin-header {
-  margin-left: 50px;
 }
 
- 
-}
+  .site-nav .margin-header + .margin-header {
+    margin-left: 50px;
+  }
 
 
 .link {
-
   position: relative;
   text-decoration: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -32,12 +26,12 @@
 
   &:hover,
   &:focus {
-  color: $accent-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    color: $accent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
-.linc.line::after {
+.line::after {
   content: "";
   position: absolute;
   left: 0;
@@ -47,12 +41,6 @@
   border-radius: 2px;
   background-color: $accent-color;
 }
-
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
-
-
-
-
-
